@@ -2,11 +2,11 @@
 
 int main()
 {
-	int i, y;
+	int i, y, z;
 	scanf ("%d", &i);
 	scanf ("%d", y);
-	i += y;
-	printf ("%d", i);
+	z = i + y;
+	printf ("%d", z);
 	
 	return 0;
 }
