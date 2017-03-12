@@ -2,6 +2,11 @@
 
 int main()
 {
-	int i;
+	int i, y;
 	scanf ("%d", &i);
+	scanf ("%d", y);
+	i += y;
+	printf ("%d", i);
+	
+	return 0;
 }
